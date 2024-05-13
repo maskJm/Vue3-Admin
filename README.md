@@ -1,14 +1,13 @@
-<<<<<<< HEAD
 # Vue3-Admin
-基于Vue，Ts，Vite，Echart的后台管理系统。通过使用尚硅谷的API进行数据的增删改查。
-=======
-# Vue 3 + TypeScript + Vite
+#### 基于Vue，Ts，Vite，Echart的后台管理系统。通过使用尚硅谷的API进行数据的增删改查。
+vite：创建vue3项目
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+里面主要为：一个后台管理系统。
 
-## Recommended Setup
+主要功能：增删改查
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+echart实现的数据大屏，通过scale实现自适应缩放。
 
-- Use [vue-tsc](https://github.com/vuejs/language-tools/tree/master/packages/tsc) for performing the same type checking from the command line, or for generating d.ts files for SFCs.
->>>>>>> master
+通过动态路由，将router里面路由分为静态路由，异步路由，任意路由。根据登录的人员确定所拥有的权限。
+
+下载开发依赖：仅通过pnpm i 
